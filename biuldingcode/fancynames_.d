@@ -11,5 +11,13 @@ auto foo(){
 	o["copperore"]="copper-plate";
 	o["pole"]="small-electric-pole";
 	o["wood"]="wood";
+	o["reddrink"]="automation-science-pack";
+	o["lab"]="lab";
+	o["insert"]="inserter";
+	o["belt"]="transport-belt";
+	o["buildy"]="assembling-machine-1";
+	o["underethy"]="underground-belt";
+	o["spilter"]="splitter";
+	o["greyinsert"]="burner-inserter";
 	return o;
 }

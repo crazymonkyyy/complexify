@@ -10,4 +10,6 @@
 --require("prototypes.module")
 --require("prototypes.recipe")
 --require("prototypes.turret")
-require("prototypes.monkyyy")
+
+--require("prototypes.monkyyy")
+require("prototypes.redscience")
