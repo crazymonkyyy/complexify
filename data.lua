@@ -12,4 +12,5 @@
 --require("prototypes.turret")
 
 --require("prototypes.monkyyy")
-require("prototypes.redscience")
+require("compiledrecipes.redscience")
+require("compiledrecipes.primitives")

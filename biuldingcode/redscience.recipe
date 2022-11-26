@@ -1,8 +1,0 @@
-8gear+iron+%5ironore=4iron
-100stick+%25ironore=iron
-100wire+%25copperore=copper
-5pole=wood+10wire
-wood=10reddrink+lab
-2reddrink+%2wood+%001insert+%001belt+%001buildy+%001underethy+%001spilter=3copper+pole+9gear+15stick
-lab=insert+belt+greyinsert+33stick+2gear
-greyinsert=4gear+10stick+15wire+iron
