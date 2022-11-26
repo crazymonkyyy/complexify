@@ -59,9 +59,46 @@ data:extend({
 				amount = 16,
 			},
 			{
-				name = "copper-plate",
+				name = "copper-ore",
 				amount = 1,
 				probability = 0.25,
+			},
+		},
+	},
+	{
+		--16greencir+1ironore+1copperore+%1wire+%1stick=32wire+4iron+4copper
+		type = "recipe",
+		name = "electronic-circuit",
+		main_product = "electronic-circuit",
+		icon = "__base__/graphics/icons/electronic-circuit.png",
+		icon_size = 64,
+		ingredients = {
+			{"copper-cable",32},
+			{"iron-plate",4},
+			{"copper-plate",4},
+		},
+		results ={
+			{
+				name = "electronic-circuit",
+				amount = 16,
+			},
+			{
+				name = "iron-ore",
+				amount = 1,
+			},
+			{
+				name = "copper-ore",
+				amount = 1,
+			},
+			{
+				name = "copper-cable",
+				amount = 1,
+				probability = 0.1,
+			},
+			{
+				name = "iron-stick",
+				amount = 1,
+				probability = 0.1,
 			},
 		},
 	},

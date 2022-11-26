@@ -8,7 +8,7 @@ auto foo(){
 	o["ironore"]="iron-ore";
 	o["stick"]="iron-stick";
 	o["wire"]="copper-cable";
-	o["copperore"]="copper-plate";
+	o["copperore"]="copper-ore";
 	o["pole"]="small-electric-pole";
 	o["wood"]="wood";
 	o["reddrink"]="automation-science-pack";
@@ -19,5 +19,7 @@ auto foo(){
 	o["underethy"]="underground-belt";
 	o["spilter"]="splitter";
 	o["greyinsert"]="burner-inserter";
+	o["greencir"]="electronic-circuit";
+	o["greendrink"]="logistic-science-pack";
 	return o;
 }

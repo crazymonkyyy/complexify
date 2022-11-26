@@ -1,3 +1,4 @@
 16gear+%25iron=4iron
 16stick+%25ironore=iron
 16wire+%25copperore=copper
+16greencir+1ironore+1copperore+%1wire+%1stick=32wire+4iron+4copper
