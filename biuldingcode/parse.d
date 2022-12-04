@@ -14,8 +14,13 @@ string mytoint(T)(T t){
 	return t.to!string;
 }
 void main(string[] s_){
+	string speed="1";
 	"data:extend({".writeln;
 	foreach(s;File(s_[1]).byLineCopy){
+		if(s[0]=='@'){
+			speed=s[1..$];
+			continue;
+		}
 		"{".w; tabs++;
 		w("--",s);
 		q{type = "recipe",}.w;
@@ -26,6 +31,7 @@ void main(string[] s_){
 		w("main_product = ",'"',mainproduct,'"',",");
 		w("icon = \"__base__/graphics/icons/",mainproduct,".png\",");
 		w("icon_size = 64,");
+		w("speed = ",speed,",");
 		//---
 		"ingredients = {".w;
 		auto mainbreak=s.countUntil!(c=>c=='=');

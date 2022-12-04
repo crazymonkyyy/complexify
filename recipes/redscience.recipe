@@ -1,5 +1,6 @@
 5pole=wood+3wire
 wood=10reddrink+lab
 2reddrink+%25wood+%01insert+%01belt+%01buildy+%01underethy+%01spilter=copper+pole+3gear+2stick
+@1.5
 lab=insert+belt+greyinsert+3stick+2gear
 greyinsert=2gear+3stick+2wire+iron

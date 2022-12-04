@@ -21,5 +21,14 @@ auto foo(){
 	o["greyinsert"]="burner-inserter";
 	o["greencir"]="electronic-circuit";
 	o["greendrink"]="logistic-science-pack";
+	o["ammo"]=
+	o["blackdrink"]=
+	o["nade"]=
+	o["redammo"]=
+	o["wall"]=
+	o["brick"]=
+	o["gun"]=
+	o["turret"]=
+	o["armor"]=
 	return o;
 }

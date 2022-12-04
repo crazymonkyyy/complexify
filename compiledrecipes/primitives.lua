@@ -6,6 +6,7 @@ data:extend({
 		main_product = "iron-gear-wheel",
 		icon = "__base__/graphics/icons/iron-gear-wheel.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"iron-plate",4},
 		},
@@ -28,6 +29,7 @@ data:extend({
 		main_product = "iron-stick",
 		icon = "__base__/graphics/icons/iron-stick.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"iron-plate",1},
 		},
@@ -50,6 +52,7 @@ data:extend({
 		main_product = "copper-cable",
 		icon = "__base__/graphics/icons/copper-cable.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"copper-plate",1},
 		},
@@ -72,6 +75,7 @@ data:extend({
 		main_product = "electronic-circuit",
 		icon = "__base__/graphics/icons/electronic-circuit.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"copper-cable",32},
 			{"iron-plate",4},

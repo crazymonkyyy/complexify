@@ -6,6 +6,7 @@ data:extend({
 		main_product = "small-electric-pole",
 		icon = "__base__/graphics/icons/small-electric-pole.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"wood",1},
 			{"copper-cable",3},
@@ -24,6 +25,7 @@ data:extend({
 		main_product = "wood",
 		icon = "__base__/graphics/icons/wood.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"automation-science-pack",10},
 			{"lab",1},
@@ -42,6 +44,7 @@ data:extend({
 		main_product = "automation-science-pack",
 		icon = "__base__/graphics/icons/automation-science-pack.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"copper-plate",1},
 			{"small-electric-pole",1},
@@ -92,6 +95,7 @@ data:extend({
 		main_product = "lab",
 		icon = "__base__/graphics/icons/lab.png",
 		icon_size = 64,
+		speed = 1.5,
 		ingredients = {
 			{"inserter",1},
 			{"transport-belt",1},
@@ -113,6 +117,7 @@ data:extend({
 		main_product = "burner-inserter",
 		icon = "__base__/graphics/icons/burner-inserter.png",
 		icon_size = 64,
+		speed = 1.5,
 		ingredients = {
 			{"iron-gear-wheel",2},
 			{"iron-stick",3},

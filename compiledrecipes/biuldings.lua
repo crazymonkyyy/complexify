@@ -6,6 +6,7 @@ data:extend({
 		main_product = "inserter",
 		icon = "__base__/graphics/icons/inserter.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"electronic-circuit",1},
 			{"iron-gear-wheel",2},
@@ -27,6 +28,7 @@ data:extend({
 		main_product = "transport-belt",
 		icon = "__base__/graphics/icons/transport-belt.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"iron-gear-wheel",3},
 			{"iron-plate",1},
@@ -47,6 +49,7 @@ data:extend({
 		main_product = "underground-belt",
 		icon = "__base__/graphics/icons/underground-belt.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"iron-plate",3},
 			{"transport-belt",4},
@@ -67,6 +70,7 @@ data:extend({
 		main_product = "splitter",
 		icon = "__base__/graphics/icons/splitter.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"electronic-circuit",2},
 			{"iron-plate",4},
@@ -89,6 +93,7 @@ data:extend({
 		main_product = "assembling-machine-1",
 		icon = "__base__/graphics/icons/assembling-machine-1.png",
 		icon_size = 64,
+		speed = 1,
 		ingredients = {
 			{"iron-plate",1},
 			{"transport-belt",2},
