@@ -2,7 +2,7 @@
 	"name": "complexify",
 	"version": "0.0.0",
 	"title": "complexify",
-	"author": "DellAquila",	
+	"author": "monkyyy",	
 	"factorio_version": "1.1",
-	"description": "Edit these recipe files with a software like Notepad++ and create your own mod with modified recipes. See Mod Portal - YouMod Recipe for tutorial."
+	"description": "makes the base recipes more complex without making the game more grindy and reasource intensive or adding a long late game"
 }
