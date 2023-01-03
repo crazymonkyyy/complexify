@@ -1,0 +1,11 @@
+@3
+5ammo+%1ironore=iron+coal
+4redammo+ironore=5ammo+steel+4copper
+nade=3coal+iron
+wall=3brick
+@6
+gun=2iron+stick
+turret=gun+4brick+10iron+10copper
+armor=20iron
+@15
+33blackdrink=ammo+redammo+nade+wall+gun+armor+turret+brick+iron+copper

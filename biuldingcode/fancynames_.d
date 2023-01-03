@@ -1,5 +1,12 @@
-enum string[string] fancyname=foo();
-
+enum string[string] fancyname__=foo();
+struct wraper{
+	string opIndex(string s){
+		if(s in fancyname__){
+			return fancyname__[s];
+		}
+		assert(0,s);
+}}
+static wraper fancyname;
 auto foo(){
 	string[string] o;
 	o["gear"]="iron-gear-wheel";
@@ -21,14 +28,16 @@ auto foo(){
 	o["greyinsert"]="burner-inserter";
 	o["greencir"]="electronic-circuit";
 	o["greendrink"]="logistic-science-pack";
-	o["ammo"]=
-	o["blackdrink"]=
-	o["nade"]=
-	o["redammo"]=
-	o["wall"]=
-	o["brick"]=
-	o["gun"]=
-	o["turret"]=
-	o["armor"]=
+	o["ammo"]="firearm-magazine";
+	o["blackdrink"]="military-science-pack";
+	o["nade"]="grenade";
+	o["redammo"]="piercing-rounds-magazine";
+	o["wall"]="stone-wall";
+	o["brick"]="stone-brick";
+	o["gun"]="pisto";
+	o["turret"]="gun-turret";
+	o["armor"]="light-armor";
+	o["coal"]="coal";
+	o["steel"]="steel-plate";
 	return o;
 }
